@@ -14,30 +14,79 @@ body {
     margin: 0;
     padding: 0;
 }
-#navbar ul li{
-    display: inline-block;
-    padding: 5px 15px;
-}
-#A24 {
+#navbar #navbar_right #A24 {
     height:10%;
     width:10%;
     margin: 0;
     padding: 0;
     border: 0;
+    float: right;
+    display: inline-block;
 }
-#navbar_left {
-    float: left;
+#navbar #navbar_right #tweet {
+    height:20%;
+    width:6%;
+    margin: 0;
+    padding: 0 3px;
+    border: 0;
+    float: right;
+    display: inline-block;
+}
+#navbar #navbar_right #facebook {
+    height:20%;
+    width:3%;
+    margin: 0;
+    padding: 0 3px;
+    border: 0;
+    float: right;
+    display: inline-block;
 }
 #navbar_left li {
-    display: inline-block;
+    float: left;
+    padding: 0 5px;
+}
+#navbar_right li {
+    float: right;
 }
 #navbar_right {
     float: right;
 }
-#navbar_right li {
-    float: right;
-    display: block;
-}
 #titletext {
     clear: both;
+    padding: 140px 0 0 0;
+}
+#titletext p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+#titletext p:first-child {
+    font-size: 93px;
+    padding: 20px 0 0 0;
+}
+#begin_btn {
+    margin: 60px 0 0 0;
+    text-align: center;
+}
+#begin_btn p {
+    border: 2px solid #191919;
+    padding: 5px 2px;
+    margin: auto;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    width: 10%;
+}
+#disclaimer {
+    margin: 180px 0 0 0;
+    text-align: center;
+}
+#disclaimer p {
+    text-align: center;
+    margin: auto;
+    width: 62%;
+    font-size: 12px;
+    opacity: 0.4;
 }
