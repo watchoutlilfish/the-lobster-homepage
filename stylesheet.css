@@ -1,0 +1,28 @@
+* {
+    font-family: "Avenir Next LT W04 Heavy", sans-serif;
+    color: #191919;
+}
+body {
+    background-color: #EFEDE1;
+}
+#navbar {
+    font-size: 12px;
+    opacity: 0.4;
+}
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li{
+    display: inline-block;
+}
+#navbar_left li{
+    display: inline-block;
+}
+#navbar_right {
+    float:right;
+}
+#titletext {
+    clear: both;
+}
