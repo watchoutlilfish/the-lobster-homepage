@@ -16,12 +16,27 @@ body {
 }
 #navbar ul li{
     display: inline-block;
+    padding: 5px 15px;
 }
-#navbar_left li{
+#A24 {
+    height:10%;
+    width:10%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#navbar_left {
+    float: left;
+}
+#navbar_left li {
     display: inline-block;
 }
 #navbar_right {
-    float:right;
+    float: right;
+}
+#navbar_right li {
+    float: right;
+    display: block;
 }
 #titletext {
     clear: both;
